@@ -1,0 +1,143 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    margin-top: 4rem;
+    min-height: 80vh;
+    overflow-x: scroll;
+
+}
+.works::-webkit-scrollbar{
+    display: none;
+}
+.w-button{
+    margin-top: 10px;
+}
+.w-awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-height: 100%;
+    flex: 1;
+}
+.w-awesome > :nth-child(1){
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.w-awesome > :nth-child(2){
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.w-awesome > :nth-child(3){
+    color: gray;
+    font-size: 14rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.w-right{
+    flex: 1;
+    position: relative;
+    height: 70vh;
+    top: 3vh;
+    
+}
+.w-mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: 0px 20px 24px 3px rgba(150, 104, 45, 0.42);
+    top: 2rem;
+    background: white;
+}
+.w-mainCircle>*{
+    position: absolute;
+}
+.w-mainCircle>:nth-child(1){
+    top: -3rem;
+    left: 6rem;
+    
+}
+.w-mainCircle>:nth-child(2){
+    left: -3rem;
+    top: 5rem;
+
+}
+.w-mainCircle>:nth-child(3){
+    left: 6rem;
+    top: 5rem;
+
+}
+#pixie{
+    height: 4.5rem;
+    border-radius: 50px;
+
+}
+
+#pixie1{
+    height: 7.5rem;
+    border-radius: 20px;
+
+}
+#pixie2{
+    height: 7.5rem;
+    border-radius: 100px;
+
+}
+
+.w-mainCircle>:nth-child(4){
+    left: 15rem;
+    top: 5rem;
+}
+.w-mainCircle>:nth-child(5){
+    left: 6rem;
+    top: 13rem;
+}
+.w-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 24px 3px rgba(150, 104, 45, 0.42);
+    background: white;
+}
+.w-secCircle > img{
+    transform: scale(0.6);
+}
+.w-secCircle:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+}
+.w-backcircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+
+}
+.w-backCircle .blueCircle{
+    background: #194988;
+    left: 58rem;
+    top: 44rem;
+
+}
+.yellowCircle{
+    background: #F5C32C;
+    left: 18rem;
+    top: 8rem;
+
+}
+.s-blur1{
+    z-index: 999;
+    background: #ABF1FF94;
+    left: 20rem;
+    top: 50rem;
+}
